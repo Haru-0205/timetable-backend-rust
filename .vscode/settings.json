@@ -1,0 +1,44 @@
+{
+    //-----------
+    //ファイル関係
+    //-----------
+    //オートフォーマット
+    "editor.formatOnSave": true,
+    //オートセーブ
+    "files.autoSave": "onFocusChange",
+    //保存時に最後の２行をなければ生成、それ以外を削除
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    //---------
+    //エディタUI
+    //---------
+    //テーマ
+    "workbench.colorTheme": "soft era",
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": true,
+    "breadcrumbs.enabled": true,
+    "editor.tabSize": 4,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.indentation": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.roundedSelection": true,
+    "editor.fontFamily": "'Jetbrains Mono','PlemolJP'",
+    "editor.fontSize": 13,
+    "editor.tokenColorCustomizations": {
+        "comments": "#999"
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#015aa3",
+        "editorBracketHighlight.foreground3": "#0ec5799a",
+        "editorCursor.background": "#1924bd8a",
+        "editorCursor.foreground": "#cc00ff8a",
+        "editorOverviewRuler.bracketMatchForeground": "#00ff9571",
+        "editorBracketMatch.background": "#9864d46e",
+        "editorBracketMatch.border": "#915acf86"
+    }
+    //---
+    //言語個別設定
+    //---
+}
