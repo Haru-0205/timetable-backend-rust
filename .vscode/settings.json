@@ -14,7 +14,7 @@
     //エディタUI
     //---------
     //テーマ
-    "workbench.colorTheme": "soft era",
+    "workbench.colorTheme": "fairyfloss",
     "editor.minimap.enabled": true,
     "editor.minimap.autohide": true,
     "breadcrumbs.enabled": true,
@@ -30,13 +30,13 @@
     },
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "workbench.colorCustomizations": {
-        "editorBracketHighlight.foreground1": "#015aa3",
-        "editorBracketHighlight.foreground3": "#0ec5799a",
-        "editorCursor.background": "#1924bd8a",
-        "editorCursor.foreground": "#cc00ff8a",
+        "editorBracketHighlight.foreground1": "#82c6fd",
+        "editorBracketHighlight.foreground3": "#0ec579",
+        "editorCursor.background": "#5d67ee",
+        "editorCursor.foreground": "#e374ff",
         "editorOverviewRuler.bracketMatchForeground": "#00ff9571",
-        "editorBracketMatch.background": "#9864d46e",
-        "editorBracketMatch.border": "#915acf86"
+        "editorBracketMatch.background": "#8d5bc5",
+        "editorBracketMatch.border": "#c08ff8"
     }
     //---
     //言語個別設定
