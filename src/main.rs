@@ -1,15 +1,14 @@
-use actix_web::{web, App, HttpServer, Responder};
+use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 
+#[get("/")]
 async fn index() -> impl Responder {
-    "Hello,World"
+    HttpResponse::Ok().json("{\"message\":\"JSON Test\"}")
 }
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    HttpServer::new(|| {
-        App::new().service(web::scope("/app").route("index.html", web::get().to(index)))
-    })
-    .bind(("127.0.0.1", 8000))?
-    .run()
-    .await
+    HttpServer::new(|| App::new().service(index))
+        .bind(("localhost", 8080))?
+        .run()
+        .await
 }
