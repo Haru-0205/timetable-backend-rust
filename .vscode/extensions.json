@@ -1,9 +1,9 @@
 {
-    "recommendations":[
+    "recommendations": [
         //Rust
         "zerotaskx.rust-extension-pack",
         //Settings.json
-        "soft-aesthetic.soft-era-theme",
+        "nopjmp.fairyfloss",
         "asvetliakov.vscode-neovim",
         "miguelsolorio.fluent-icons",
         //useful
