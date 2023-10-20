@@ -4,9 +4,10 @@ LABEL version="0.1.0"
 LABEL maintainer="haru"
 LABEL name="timetable-backend-rust"
 
-RUN pacman -Syu --noconfirm 
+RUN pacman -Syu --noconfirm
 RUN pacman -S --noconfirm rustup
 RUN pacman -S --noconfirm git
+RUN pacman -S --noconfirm clang
 
 RUN rustup default stable
 RUN rustup component add rls rust-analysis rust-src
