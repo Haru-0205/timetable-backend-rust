@@ -1,6 +1,6 @@
 FROM archlinux
 
-LABEL version="0.1.0"
+LABEL version="0.2.0"
 LABEL maintainer="haru"
 LABEL name="timetable-backend-rust"
 
@@ -8,6 +8,8 @@ RUN pacman -Syu --noconfirm
 RUN pacman -S --noconfirm rustup
 RUN pacman -S --noconfirm git
 RUN pacman -S --noconfirm clang
+RUN pacman -S --noconfirm nano
+RUN pacman -S --noconfirm neovim
 
 RUN rustup default stable
 RUN rustup component add rls rust-analysis rust-src

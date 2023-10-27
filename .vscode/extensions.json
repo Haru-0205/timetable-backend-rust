@@ -1,21 +1,6 @@
 {
     "recommendations": [
-        //Rust
-        "zerotaskx.rust-extension-pack",
-        //Settings.json
-        "nopjmp.fairyfloss",
-        "asvetliakov.vscode-neovim",
-        "miguelsolorio.fluent-icons",
-        //useful
-        "michaelcurrin.auto-commit-msg",
-        "streetsidesoftware.code-spell-checker",
-        "alefragnani.project-manager",
-        "oderwat.indent-rainbow",
-        //dev
-        "ms-vscode.vscode-node-azure-pack",
-        "ms-azuretools.vscode-docker",
         "ms-vscode-remote.remote-containers",
-        "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "ritwickdey.LiveServer"
+        "ms-kubernetes-tools.vscode-kubernetes-tools"
     ]
 }
