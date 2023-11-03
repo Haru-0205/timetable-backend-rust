@@ -8,18 +8,19 @@ struct Todo {
     checked: bool,
 }
 
-#[get("/api/todo")]
-async fn todo_index() -> impl Responder {
-    HttpResponse::Ok().json(Todo {
-        id: 1,
-        content: "やることはapi".to_string(),
-        checked: false,
-    })
+#[get("/")]
+async fn get() -> impl Responder {
+    HttpResponse::Ok().body("GET OK")
+}
+
+#[get("/sample")]
+async fn get_sample() -> impl Responder {
+    HttpResponse::Ok().body("Sample")
 }
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    HttpServer::new(|| App::new().service(todo_index))
+    HttpServer::new(|| App::new().service(get))
         .bind(("web", 8080))?
         .run()
         .await
