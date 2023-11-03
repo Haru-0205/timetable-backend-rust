@@ -37,7 +37,10 @@
     "editorOverviewRuler.bracketMatchForeground": "#00ff9571",
     "editorBracketMatch.background": "#8d5bc5",
     "editorBracketMatch.border": "#c08ff8"
-  }
+  },
+  "cSpell.words": [
+    "actix"
+  ]
   //---
   //言語個別設定
   //---
