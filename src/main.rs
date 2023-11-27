@@ -3,9 +3,9 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Todo {
-    id: i32,
-    content: String,
-    checked: bool,
+    subject: str,
+    range: str,
+    active: bool,
 }
 
 #[get("/")]
