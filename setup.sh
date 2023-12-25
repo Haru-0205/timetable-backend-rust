@@ -6,6 +6,7 @@ git config --global user.email $email
 echo "ユーザー名を入力してください"
 read name
 git config --global user.name $name
+git config --global --add safe.directory /workspaces/timetable-backend-rust
 gh auth login
 git fetch
 git pull
